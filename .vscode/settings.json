@@ -1,0 +1,9 @@
+{
+    "editor.defaultFormatter": "remimarsal.prettier-now",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "javascript.format.enable": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

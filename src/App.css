@@ -1,38 +1,86 @@
+body {
+	color: green;
+	margin : 1rem;
+	background-color:white;
+}
+
+
+
+.main-menu  {
+	color:white;
+	display:flex;
+	flex-direction: row;
+	text-transform:uppercase;
+	gap:3rem;
+
+}
+
+
 .App {
-  text-align: center;
+	display:grid;
+	grid-template-columns:repeat(2, 1fr);
+	justify-items:center;
+	margin: 2rem;
+	gap: 1rem;
+	font-size: 0.8rem;
+}
+.moviename {
+	margin-bottom: 0rem;
+	margin-top: 0.5rem;
+	font-weight: bold;
+}
+.year {
+	margin-top: 0rem;
+	font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.displayApp {
+	
+	display: grid;
+	grid-gap: 20px 50px;
+	grid-template-columns: auto auto auto auto;
+	
+}
+.addApp {
+	text-align: center;
+}
+.movie-Box{
+    padding:1rem;
+	text-align: center;
+	border-radius:1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nameInput {
+	padding: 0.4rem;
+	margin: 1rem;
+	border-radius: 0.9rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.imageInput {
+	padding: 0.4rem;
+	margin: 1rem;
+	border-radius: 0.9rem;
 }
 
-.App-link {
-  color: #61dafb;
+.yearInput {
+	padding: 0.4rem;
+	margin: 1rem;
+	border-radius: 0.9rem;
+}
+.descripInput {
+	padding: 0.4rem;
+	margin: 1rem;
+	border-radius: 0.9rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.newMovieInput{
+	display:flex;
+	justify-content: space-evenly;
+	
+}
+
+.trailerInput{
+	display:flex;
+	justify-content: space-evenly;
+	
 }
